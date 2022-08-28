@@ -1,0 +1,129 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1534794048419-48e110dca88e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1652&q=80);
+    /*background: #fffff8; */
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    /* grid-template-columns:  */
+    height: auto;
+    width: max-content;
+    background: #ffffffba;
+    color: #070707;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 1em 6em;
+}
+
+.holder{
+    color: #3b4a6b;
+}
+
+.entry{
+    color: #ffffff;
+    
+}
+
+.myInput {
+    border: none;
+}
+
+#lastEntry{
+    background: #3b4a6bb0;
+    /* margin: 1em; */
+    text-align: center;
+}
+
+#date{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1em;
+}
+
+#temp{
+    font-size: 3em;
+
+}
+
+#content{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    padding: 1em;
+}
+
+.title{
+    font-style: italic;
+    color: #3b4a6b
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 20px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#f0d53aab;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+textarea{
+    background:#f0d53aab;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+button{
+    display: block;
+    /* width: 320px;
+    height: 100px; */
+    background: #22b2da;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+button:hover {
+    background: #f0d53aab;
+    color: #22b2da;
+}
+h1{
+    font-size: 3em;
+    color: #3b4a6b;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #6e6d6b; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #6e6d6b; 
+    font-family: 'Oswald', sans-serif;
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #6e6d6b; 
+    font-family: 'Oswald', sans-serif;
+} 
