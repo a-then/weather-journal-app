@@ -14,5 +14,5 @@ An asynchronous web app that uses Web API and user data to dynamically update th
 
 ## Authors
 
-Project completed by [@a-then] (https://github.com/a-then) with starter code provided by Udacity (https://www.udacity.com/).
+Project completed by [@a-then](https://github.com/a-then) with starter code provided by [Udacity](https://www.udacity.com/).
 
